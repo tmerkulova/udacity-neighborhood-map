@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#maincontent {
+  display: flex;
+  flex-wrap: wrap;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+/* #filter-options {
+    z-index: 1000;
+} */

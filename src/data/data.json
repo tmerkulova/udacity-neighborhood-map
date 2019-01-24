@@ -1,0 +1,975 @@
+[
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.75202329999999,
+        "lng": 37.6174994
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7536916302915,
+          "lng": 37.6206508
+        },
+        "southwest": {
+          "lat": 55.7509936697085,
+          "lng": 37.6080452
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "id": "afa721ec3354a8eef81b33425314b5bb6b7fa98a",
+    "name": "The Moscow Kremlin",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 426,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112078499036633741495/photos\">Валерий Ларионов</a>"
+        ],
+        "photo_reference": "CmRaAAAAuSHfxBppxEFa6ecO2A845kF4V0OLXaXl35-AXZj7pOKYmGMl68hVkfs01JyuyhdoBHPpIfPEuBwYh5qERbZr_QiGMKYCLnPT3zST8ymxlhiiiy76AgoLvV4DOmPPZoTjEhC3v3DhVPBGfTLfmexvqvqEGhTmSWkqlW5-D2_ijraAASgR9rizcg",
+        "width": 640
+      }
+    ],
+    "place_id": "ChIJc-UVs1BKtUYRaC6bPVq_hqg",
+    "plus_code": {
+      "compound_code": "QJ28+RX Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ28+RX"
+    },
+    "rating": 4.7,
+    "reference": "ChIJc-UVs1BKtUYRaC6bPVq_hqg",
+    "scope": "GOOGLE",
+    "types": [
+      "premise",
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 26021,
+    "vicinity": "Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7525229,
+        "lng": 37.6230868
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75387068029151,
+          "lng": 37.62426333029149
+        },
+        "southwest": {
+          "lat": 55.75117271970851,
+          "lng": 37.6215653697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png",
+    "id": "ca36be385f31b1a5997d681fa5ec26bac4a6eed7",
+    "name": "St. Basil's Cathedral",
+    "photos": [
+      {
+        "height": 1705,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117411478417661113747/photos\">Alceni Corrêa</a>"
+        ],
+        "photo_reference": "CmRaAAAABf8lfKoHDEyxl-ysMaA4VkxgJ9xZezHtM5NlqaMWf1_ztvnCdJ_035XdEH9XQrvC8bEsZEIIESJDWKTcsLrjf19P0hZYEbWiVm5HFvaoknRcIjqZ8FO1kA1p0R48uCo6EhDkhIwmKSb2TV3al-bvvPk0GhTuuis8za7O66LdzUBAobD_9D_H-g",
+        "width": 2558
+      }
+    ],
+    "place_id": "ChIJBZbmYllKtUYR5TrL54oWz6Q",
+    "plus_code": {
+      "compound_code": "QJ3F+26 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ3F+26"
+    },
+    "rating": 4.8,
+    "reference": "ChIJBZbmYllKtUYR5TrL54oWz6Q",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "church",
+      "place_of_worship",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4258,
+    "vicinity": "Red Square, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7521662,
+        "lng": 37.60835830000001
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75362948029149,
+          "lng": 37.6100639302915
+        },
+        "southwest": {
+          "lat": 55.75093151970849,
+          "lng": 37.6073659697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "6d0166e9c35a1bf11a387e6f4a56e04c39532b3f",
+    "name": "Book Museum",
+    "photos": [
+      {
+        "height": 602,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116724531831916351535/photos\">Dmitry A. Shchukin</a>"
+        ],
+        "photo_reference": "CmRaAAAAMgxMWN9CdQ-ocoVH363T5Ca3fCVVQMJeLLbrc3jbKTo_JGFQcMKQQqU7anKsjWiq40gJ9SI08zX8TKbqG4hwYdUQivfYfHXjhNWai-VfDi_BdRiwIm1CDO7oE30idacTEhBkrauYZCNHmX1UvA7tWGKjGhQVAcXeSibrnewo3TWTPPiEj795QQ",
+        "width": 900
+      }
+    ],
+    "place_id": "ChIJoTopjFFKtUYRFXLH3UkYta8",
+    "plus_code": {
+      "compound_code": "QJ25+V8 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ25+V8"
+    },
+    "rating": 4.3,
+    "reference": "ChIJoTopjFFKtUYRFXLH3UkYta8",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 53,
+    "vicinity": "Vozdvizhenka Street, 3/5, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.755334,
+        "lng": 37.61784739999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75754425000001,
+          "lng": 37.6201323
+        },
+        "southwest": {
+          "lat": 55.75459725,
+          "lng": 37.6132947
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "bcb299e244130a80129937de3800c1ffe3154745",
+    "name": "State Historical Museum",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108707205819479402076/photos\">Leonardo Paoliello</a>"
+        ],
+        "photo_reference": "CmRaAAAAV6sLIVh0iOloP5h1jnDA2xGwfWwpAMxvWTSqe5VAnhykJk-tuLEXz--JqENNO2qeuP0zyWxdfxPtX0PwXQy-daQ7PCQxLFG8iSgXUYzi_kHSFzdWjOdc51oFrrmE7agXEhCPoEKfXYHM-rZ5W_n1li_hGhQG9_UDrpLoL2YSfBUvK1yggZBkmQ",
+        "width": 4928
+      }
+    ],
+    "place_id": "ChIJfRJDflpKtUYRl0UbgcrmUUk",
+    "plus_code": {
+      "compound_code": "QJ49+44 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ49+44"
+    },
+    "rating": 4.5,
+    "reference": "ChIJfRJDflpKtUYRl0UbgcrmUUk",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 898,
+    "vicinity": "Red Square, 1, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.76011,
+        "lng": 37.6132149
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7613533802915,
+          "lng": 37.6146873302915
+        },
+        "southwest": {
+          "lat": 55.7586554197085,
+          "lng": 37.6119893697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "1293242411022b895a8ed5e297a577cbc08d6423",
+    "name": "Moskovskogo Khudozhestvennogo Akademicheskogo Teatra Im. A.p. Chekhova Izdatel'stvo",
+    "photos": [
+      {
+        "height": 420,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115485357225144015181/photos\">Елена Фролова</a>"
+        ],
+        "photo_reference": "CmRaAAAAVUTlLPIsAIU7Rbb34iYWYr8THqARKXORYaTnVhXWU6JvXynTzIgCwied6LkizquZiEtzGW3aE7U-eKdzJDLsLNP3PgyE-SY0gdPGKERF2Pgvkg2Fb8Ow5w2QQxPoK8UBEhAw37bPWS4tS6wrFzl9mTmOGhTCHOykpZhSAk3T5HNF6mLPQiq6ZA",
+        "width": 420
+      }
+    ],
+    "place_id": "ChIJv0Ie-0RKtUYROZI6kmNy5KQ",
+    "plus_code": {
+      "compound_code": "QJ67+27 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ67+27"
+    },
+    "rating": 5,
+    "reference": "ChIJv0Ie-0RKtUYROZI6kmNy5KQ",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 7,
+    "vicinity": "Kamergerskiy Pereulok, 3, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7502046,
+        "lng": 37.61785679999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75359624999999,
+          "lng": 37.62234855
+        },
+        "southwest": {
+          "lat": 55.74907405,
+          "lng": 37.60716235
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "924bdf0c6e1011f3ace398c386a7d6a8c24245a9",
+    "name": "Cathedral of the Archangel",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107475199060272280972/photos\">Matthew Robinson</a>"
+        ],
+        "photo_reference": "CmRaAAAAwIc09tRFuJjXU-oW5BDBh_ulXHTGmJnJQEC26rV-qD9yPkYE06-GQg6LSGSH4Tj7mMduO_D60uWf6A_yAoP6XtMw5iDk08Zq64YNQzJoU93-GCEf5b6gD08wrdwTikVuEhDtGwDozVK9yXDmjJSr_F5zGhQUOppsyacmqmtmCnRsN29pa5qPAA",
+        "width": 5472
+      }
+    ],
+    "place_id": "ChIJ55tKuFZKtUYRQwWh3Wdxw94",
+    "plus_code": {
+      "compound_code": "QJ29+34 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ29+34"
+    },
+    "rating": 4.6,
+    "reference": "ChIJ55tKuFZKtUYRQwWh3Wdxw94",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "church",
+      "place_of_worship",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 178,
+    "vicinity": "Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.76013349999999,
+        "lng": 37.6186486
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7613172302915,
+          "lng": 37.6204596802915
+        },
+        "southwest": {
+          "lat": 55.7586192697085,
+          "lng": 37.6177617197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "id": "9a78e0dca5a3bf56242e1cd5c0119696211cf312",
+    "name": "Bolshoi Theatre",
+    "photos": [
+      {
+        "height": 1397,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112234972184974063856/photos\">Denis Konyukhov</a>"
+        ],
+        "photo_reference": "CmRaAAAAJlmJ4Q3V6sVxYsHQsrI26PK3IbVpZ4ESL7LQhzlkFWjoEo_L9TY5E-tCjhrIKS93Cw6DD1Huq2BklfYNUOqHmg2LIO9KfPMvH1wWmazFr8SAhjyR-C8zzBRLcYay_531EhD3p9rmYilu1o37Aty58LFuGhQBc-iI5afKlLCqIVc6DXOmMYc0Qw",
+        "width": 2126
+      }
+    ],
+    "place_id": "ChIJv21XTFtKtUYR8ikdmhgpqJM",
+    "plus_code": {
+      "compound_code": "QJ69+3F Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ69+3F"
+    },
+    "rating": 4.8,
+    "reference": "ChIJv21XTFtKtUYR8ikdmhgpqJM",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 9243,
+    "vicinity": "Theatre Square, 1, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.75234409999999,
+        "lng": 37.6269611
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7538227302915,
+          "lng": 37.6282515802915
+        },
+        "southwest": {
+          "lat": 55.7511247697085,
+          "lng": 37.6255536197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "26f7d755847cf734af36bb861fb5b4964125c43f",
+    "name": "Staryy Angliyskiy Dvor",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114665025463147396548/photos\">Михаил Нестеренко</a>"
+        ],
+        "photo_reference": "CmRaAAAADPGnZaEje_RXvw4hykl91eVmxvUNh2F8CGYFPk8eyayb6y9klhKEN7JK9DxrDR-vTSEzdTPerB989ktrKOkhWNrhpjA6BC05UgaOEhtqPOlQ2Zupg5dJapKjKKWBjrocEhB_Mli-7lt2zi2FoAcOo9naGhRK_IEq5VIe5GYM_3927G5UVnzJSw",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJZ0pgO1hKtUYRKz3sYEZTjRg",
+    "plus_code": {
+      "compound_code": "QJ2G+WQ Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ2G+WQ"
+    },
+    "rating": 4.6,
+    "reference": "ChIJZ0pgO1hKtUYRKz3sYEZTjRg",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 326,
+    "vicinity": "Ulitsa Varvarka, 4А, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.74730539999999,
+        "lng": 37.6051125
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.74839753029149,
+          "lng": 37.60750409999999
+        },
+        "southwest": {
+          "lat": 55.74569956970849,
+          "lng": 37.60431530000001
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "f70ccd1466da057a2ed4f760b5f572985187b03c",
+    "name": "The Pushkin State Museum of Fine Arts",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3286,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107856018611880670291/photos\">Viktor Polyakov</a>"
+        ],
+        "photo_reference": "CmRaAAAAcEBKfP4deSWLN3uQrneCvG9VnTI5fR0n1UVLikTd575_f-ip-Swruz3XsR4f7QMyeCiz9KVjorSOxrSZqUBxhlyCubCGIWy9ThfAn2-7nfaDer_BpSx5FIwznv7GLmKaEhAZygIhofew3wCMxe3nG6ilGhTl2wy-5N3qITkX5bvO6mj3fhS28g",
+        "width": 4929
+      }
+    ],
+    "place_id": "ChIJ-4GgOlNKtUYRJAfJskWS2Sc",
+    "plus_code": {
+      "compound_code": "PJW4+W2 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VPJW4+W2"
+    },
+    "rating": 4.8,
+    "reference": "ChIJ-4GgOlNKtUYRJAfJskWS2Sc",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 7819,
+    "vicinity": "Ulitsa Volkhonka, 12, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.752498,
+        "lng": 37.60693490000001
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75394333029149,
+          "lng": 37.6083016302915
+        },
+        "southwest": {
+          "lat": 55.75124536970849,
+          "lng": 37.6056036697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "271d5baf500e833ff58982ff3ae40a2f50f2a1dd",
+    "name": "Schusev State Museum of Architecture",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3265,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110379852904703379071/photos\">Eliezer Plonimus</a>"
+        ],
+        "photo_reference": "CmRaAAAAZLVjg_HJ7LkKgXhZEDnWYNO9Jo8Epn-06gqpE_DwFqeNdCOj2NkjDE6v0l1t7M6nPempxJhGyqdr5ZRKJjaI6QacXSGeb4fTZa4PQduy063clcS5Mp8qmSTgatsQlrr8EhAcYo_p8bJqVcXonBYf0wEeGhTSC-TCj7hpR_xqLGBeCZUpB7fMwQ",
+        "width": 4898
+      }
+    ],
+    "place_id": "ChIJiS4N91FKtUYRH_t5cFtzhwU",
+    "plus_code": {
+      "compound_code": "QJ24+XQ Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ24+XQ"
+    },
+    "rating": 4.6,
+    "reference": "ChIJiS4N91FKtUYRH_t5cFtzhwU",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 550,
+    "vicinity": "Vozdvizhenka Street, 5/25, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7555811,
+        "lng": 37.6095777
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75686883029149,
+          "lng": 37.6108635802915
+        },
+        "southwest": {
+          "lat": 55.7541708697085,
+          "lng": 37.6081656197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "id": "43e59b7487e83ea0c2f899d6fe8052e9a2b55509",
+    "name": "Nauchnyy Terrarium Zoologicheskogo Muzeya Mgu",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 403,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104808060642666948618/photos\">Lazareva Evgenya</a>"
+        ],
+        "photo_reference": "CmRaAAAAeBHmf2OCNvMoWJHNBxU58X7p6x40o19DwBpNoVphMs9iHANzwRGVvCMkOjs6qb4Vk6wVCKl1m2bAYCz1jkdPQoQM_8zd7gFJV6qjn4WSuvVgKzpNNJsVwK_m2NWX1MK6EhC36sygZ6vycBXhoLTM3uFGGhTUfu9SrXFaM6VqmCILVlJ67ntQPQ",
+        "width": 604
+      }
+    ],
+    "place_id": "ChIJjUBN2k9KtUYRA6yPyrt92jE",
+    "plus_code": {
+      "compound_code": "QJ45+6R Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ45+6R"
+    },
+    "rating": 5,
+    "reference": "ChIJjUBN2k9KtUYRA6yPyrt92jE",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "Bol'shaya Nikitskaya Ulitsa, 6, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7557773,
+        "lng": 37.608991
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.75706308029149,
+          "lng": 37.61027533029149
+        },
+        "southwest": {
+          "lat": 55.7543651197085,
+          "lng": 37.60757736970849
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "e477b9ce5bc2a7b9345919aeb990f1c76b73a783",
+    "name": "Zoologicheskiy Muzey Moskovskogo Gosudarstvennogo Universiteta Imeni M.v. Lomonosova",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3888,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102736012947703462907/photos\">Доброе ТВ</a>"
+        ],
+        "photo_reference": "CmRaAAAArpAkrgqrgt6gspnctsyvD2gW8dV4VkF0TrkW8BdpCNZpKrQ9vsaMn5sFaCP1aINVFN614O7_ROS5FgYxOBkaybVo2_bvUbbzMnJylk4KJ15yWz0I4FrMS2HhPRqEk3fvEhDZvEg2wkrpwr42O88mUkAfGhT5phnFC1Tr6YAeE08FFJPugCZNjQ",
+        "width": 5184
+      }
+    ],
+    "place_id": "ChIJjUBN2k9KtUYRevQSshNvLPE",
+    "plus_code": {
+      "compound_code": "QJ45+8H Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ45+8H"
+    },
+    "rating": 4.6,
+    "reference": "ChIJjUBN2k9KtUYRevQSshNvLPE",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1014,
+    "vicinity": "Bol'shaya Nikitskaya Ulitsa, 2, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.746427,
+        "lng": 37.6066859
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7478257302915,
+          "lng": 37.60787233029151
+        },
+        "southwest": {
+          "lat": 55.7451277697085,
+          "lng": 37.60517436970851
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "id": "9116694660c48f8d0a4cb949885b095c5baa3e58",
+    "name": "Galereya Il'i Glazunova",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100460592579853169513/photos\">Filin</a>"
+        ],
+        "photo_reference": "CmRaAAAAs_Mxqs6NuOqaFNoWKSlEA05BjtueYJCtZ3kxmrFYHBI6yntxPWCiEwqeFQLXf7FHkm6Tw5Yua8hAbp6wyKxlTWwtdiLd2QtyLbqqL2_L0tB1HYb1G6xx9Lu2pai3TDFTEhBXqepTnANojpWgYeB8lZa9GhTsK-cdN77X2e5_7Mjxmdbj-i8fFA",
+        "width": 1600
+      }
+    ],
+    "place_id": "ChIJwTwjTlNKtUYRCc2tenWwJzM",
+    "plus_code": {
+      "compound_code": "PJW4+HM Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VPJW4+HM"
+    },
+    "rating": 4.7,
+    "reference": "ChIJwTwjTlNKtUYRCc2tenWwJzM",
+    "scope": "GOOGLE",
+    "types": [
+      "art_gallery",
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 444,
+    "vicinity": "Ulitsa Volkhonka, 13 стр.2, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.756007,
+        "lng": 37.61260300000001
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7572694802915,
+          "lng": 37.61385718029151
+        },
+        "southwest": {
+          "lat": 55.7545715197085,
+          "lng": 37.61115921970851
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+    "id": "f387dc21c3980ab07e5b7d7aa89632d2a28c18b3",
+    "name": "Vernadsky State Geological Museum",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110994991132274489819/photos\">Государственный Геологический Музей им. В.И. Вернадского РАН</a>"
+        ],
+        "photo_reference": "CmRaAAAANZ2oMr86HdS3DzGQMkAml4jMf60qZOHwHiXwHckGTDN6aFUBn6PL0VpoQSWorZWRtABp4Rx1W9doPx8X5cSQE6ueL1H7yjm9twUfW_xTGQGYh3nKvTS4fGL69oRhCz9HEhAPdDkxOZkH7xL-KQwfOqCXGhS9cMk3ZZ2XSnLoVUCrfFH8S1JiTA",
+        "width": 1512
+      }
+    ],
+    "place_id": "ChIJa_VO4k9KtUYR1duBWJW9K1k",
+    "plus_code": {
+      "compound_code": "QJ47+C2 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ47+C2"
+    },
+    "rating": 4.5,
+    "reference": "ChIJa_VO4k9KtUYR1duBWJW9K1k",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 86,
+    "vicinity": "ул. Моховая, 11, стр. 11, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.75275839999999,
+        "lng": 37.6292746
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7541579302915,
+          "lng": 37.6306282802915
+        },
+        "southwest": {
+          "lat": 55.7514599697085,
+          "lng": 37.6279303197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "509d1c408c9787d5b8264865b82655f58ab2c499",
+    "name": "Chambers in Zaryadye",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116506443035239664653/photos\">Анна Бакиева</a>"
+        ],
+        "photo_reference": "CmRaAAAA6IhgkbBPxEL2KAjLuVxra4CecdOrZWOCmR0sNtbXM48lmui2IP3XadP6zOE2cx9B5QkUZ97GDLG82HiWUYltYj3k8mKu_zam8yiLnmuk7862RUegn-3P8yjUhrJ9xFhUEhBj1BEwcozHp6zzokP-1Oa8GhQfxeplr5pNTQNSTY4FzEsSvUCDTQ",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJGSSWa1hKtUYRU3YLoYfco9Y",
+    "plus_code": {
+      "compound_code": "QJ3H+4P Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ3H+4P"
+    },
+    "rating": 4.7,
+    "reference": "ChIJGSSWa1hKtUYRU3YLoYfco9Y",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 119,
+    "vicinity": "Ulitsa Varvarka, 10, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.75555960000001,
+        "lng": 37.62672999999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7567955802915,
+          "lng": 37.6281992802915
+        },
+        "southwest": {
+          "lat": 55.7540976197085,
+          "lng": 37.6255013197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "03832cf8c048bdb8eb49bdcc48aa10c20a735f84",
+    "name": "Muzey Ministerstva Finansov Rf",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3480,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114214656416177785192/photos\">Лучший ИзЛучших</a>"
+        ],
+        "photo_reference": "CmRZAAAAFalx79oalDzuHzgqzf2HWHX_RSxPem86nxlLjgYx5n9KTR-5h3KU20binPgwTh1DWtxo8ot5MAL_UsUT2rf017uu2Cy_1Eyd0vaIy_vbtigLbGPR9qbukx6NHvD7l8MJEhDyws0TgkSNg6iiR1mtcF2EGhTxk8GtyekSbOqlvCJE44t4dpJoVw",
+        "width": 4640
+      }
+    ],
+    "place_id": "ChIJvQnaDFlKtUYRu6Q5Xttuoy8",
+    "plus_code": {
+      "compound_code": "QJ4G+6M Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ4G+6M"
+    },
+    "rating": 3.9,
+    "reference": "ChIJvQnaDFlKtUYRu6Q5Xttuoy8",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 11,
+    "vicinity": "Ulitsa Il'inka, 9, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7492059,
+        "lng": 37.60797609999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7506118802915,
+          "lng": 37.60937533029149
+        },
+        "southwest": {
+          "lat": 55.7479139197085,
+          "lng": 37.60667736970849
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "6b6d7194109aa0809c25b38ad46fd43aa1c3b16e",
+    "name": "Moskovskaya Gosudarstvennaya Kartinnaya Galereya Narodnogo Khudozhnika Sssr A.shilova",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107866028684231894888/photos\">Людмила Шуксто</a>"
+        ],
+        "photo_reference": "CmRaAAAAMaLLYW8njFl7_xPKvpKcToJIPofGoN1LgoXm7Ap4cLqDxl2W-aNzADR52Vs0UYsMcB7qEKR9V1pEr68cNkTRNg_sHC2VQJP_IIsZ7VYWxBcR25eGEwcq1mktcLWyEuDVEhDzI36q51fIvKczaUUmviVyGhQAYi80CGpzQHUAc3c3aeIMDbNbPA",
+        "width": 3840
+      }
+    ],
+    "place_id": "ChIJ3U9Ir1NKtUYRZJYM_5nvf10",
+    "plus_code": {
+      "compound_code": "PJX5+M5 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VPJX5+M5"
+    },
+    "rating": 4.5,
+    "reference": "ChIJ3U9Ir1NKtUYRZJYM_5nvf10",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "art_gallery",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 286,
+    "vicinity": "Znamenka Ulitsa, 5, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7600233,
+        "lng": 37.6140973
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7614108802915,
+          "lng": 37.6154011302915
+        },
+        "southwest": {
+          "lat": 55.75871291970851,
+          "lng": 37.6127031697085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "71ff4d593d700959d039a42736333a888a1cd6cf",
+    "name": "Muzey S.s. Prokof'yeva",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103919809038131468606/photos\">Паша Большаков</a>"
+        ],
+        "photo_reference": "CmRaAAAAY31ouQKaLGFTyE4g7VXW6hCGB0jbuW5m16QI4imgATxjovS28MtjCSRhPVUSEZfHsZhb2w8E21AzYgjw4cQ16HF9vWmyaLtFqVblzcbH1K7CCkC2nvPTQKl2w3gjMkdPEhCNU8DA1qmZeeTnUQtg-HDNGhThYbipXCxOkVa7s5aEjd2DvlMzwg",
+        "width": 5184
+      }
+    ],
+    "place_id": "ChIJuy2z6URKtUYRyDuWkbGvRXo",
+    "plus_code": {
+      "compound_code": "QJ67+2J Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ67+2J"
+    },
+    "rating": 4.8,
+    "reference": "ChIJuy2z6URKtUYRyDuWkbGvRXo",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 81,
+    "vicinity": "Kamergerskiy Pereulok, 6, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.75345,
+        "lng": 37.62516239999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7547624302915,
+          "lng": 37.6263781802915
+        },
+        "southwest": {
+          "lat": 55.7520644697085,
+          "lng": 37.6236802197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "0a652c5273a9af68a0d8fe06cc8618bf51de6d9d",
+    "name": "Staryy Gostinyy Dvor, Arkheologicheskiy Vystavochnyy Kompleks",
+    "photos": [
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108551473547706375137/photos\">BASILIO &amp;NEGRITOV</a>"
+        ],
+        "photo_reference": "CmRaAAAAyHICrOs3kh3_NdiSO-wuxxYaWDfB01LoYJrMOg5hLSFl0q8OB4x_10nNK7NYUV4V0ZjWRwfYuH9S2OAI6EIB-lIWFXUrsXqi2JpHDy5K7eF2G_nZRGNjHeY7z8I0lm1CEhDoG5MPLviy5N1aubYkUaHMGhTO8-_IV9rMvZC-9qJ8UEcp9nyPgg",
+        "width": 3120
+      }
+    ],
+    "place_id": "ChIJlaZYz1lKtUYRrIWPDnE3g8s",
+    "plus_code": {
+      "compound_code": "QJ3G+93 Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ3G+93"
+    },
+    "rating": 4.2,
+    "reference": "ChIJlaZYz1lKtUYRrIWPDnE3g8s",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 10,
+    "vicinity": "Khrustal'nyy Pereulok, 1, Moscow"
+  },
+  {
+    "geometry": {
+      "location": {
+        "lat": 55.7563014,
+        "lng": 37.61712989999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 55.7575131302915,
+          "lng": 37.6181689802915
+        },
+        "southwest": {
+          "lat": 55.7548151697085,
+          "lng": 37.6154710197085
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+    "id": "ecd8b6484eb1ea6ccc9778e1c8af3a4eea97ce1b",
+    "name": "Muzey Arkheologii Moskvy",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111398173831679808313/photos\">Jukka Heikkila</a>"
+        ],
+        "photo_reference": "CmRaAAAA484wtfK9vM8SNv3L1z6_l0SqpQMBX3EshTMLS3AZlyso9vRbcp4tU-D8aIjAXHKkeVP0R1T9SjPDbMXnwP7du4rumkHyjjnz_SONlW4T_nYzNq76QF_s-hOnQYmrPmQZEhB6PhoT3QBCuy3TYKnTt-aSGhRDXfVlhLXygnDV1hg4HdyyKg3bWg",
+        "width": 4928
+      }
+    ],
+    "place_id": "ChIJYUOorVFKtUYRtlZMvQAHb-Q",
+    "plus_code": {
+      "compound_code": "QJ48+GV Central Administrative Okrug, Moscow, Russia",
+      "global_code": "9G7VQJ48+GV"
+    },
+    "rating": 4.5,
+    "reference": "ChIJYUOorVFKtUYRtlZMvQAHb-Q",
+    "scope": "GOOGLE",
+    "types": [
+      "museum",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 598,
+    "vicinity": "Manege Square, 1А, Moscow"
+  }
+]
