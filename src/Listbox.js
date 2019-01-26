@@ -5,11 +5,11 @@ class Listbox extends Component {
     return (
       <div>
         {this.props.markers.map(marker => (
-          <option
+          <ul
             key={marker.id}
           >
             {marker.name}
-          </option>
+          </ul>
         ))}
 
       </div>

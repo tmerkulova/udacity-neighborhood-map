@@ -46,11 +46,9 @@ class NeighborhoodMapApp extends Component {
                 <input onChange={this.handleChange} type="text" placeholder="Search for places"></input>
                 <Listbox markers={this.state.shownMarkers}></Listbox>
               </div>
-              <section id="map-container">
-                <div id="map">
-                  <Map markers={this.state.shownMarkers}></Map>
-                </div>
-              </section>
+              <div id="map">
+                <Map markers={this.state.shownMarkers}></Map>
+              </div>
             </main>
             <footer id="footer">
               Copyright (c) 2019 <a href="/"><strong>Neighborhood Map</strong></a> All Rights Reserved.

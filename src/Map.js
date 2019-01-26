@@ -4,7 +4,7 @@ import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 
 const mapStyles = {
   width: '100%',
-  height: '50%'
+  height: '100%',
 };
 
 export class MapContainer extends Component {
@@ -38,19 +38,19 @@ export class MapContainer extends Component {
         zoom={14}
         style={mapStyles}
         initialCenter={{
-          lat: 55.752716,
-          lng: 37.617489
+          "lat": 41.902916,
+          "lng": 12.454301
         }}>
         {
           this.props.markers.map(marker => (
-              <Marker
-                key={marker.id}
-                id={marker.id}
-                name={marker.name}
-                position={marker.geometry.location}
-                onClick={this.onMarkerClick}
-              ></Marker>
-            ))
+            <Marker
+              key={marker.id}
+              id={marker.id}
+              name={marker.name}
+              position={{ lat: marker.location.lat, lng: marker.location.lng}}
+              onClick={this.onMarkerClick}
+            ></Marker>
+          ))
         }
         <InfoWindow
           marker={this.state.activeMarker}

@@ -1,16 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
-
+ul {
+  padding: 0;
+  margin: 0;
+}
 #maincontent {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 #map {
-  height: 400px;
-  width: 100%;
-  background-color: #ccc;
+  background-color: red;
+  flex: 3;
+  order: 2;
+  display: block;
+  position: relative;
+  min-height: 100%;
 }
 
-/* #filter-options {
-    z-index: 1000;
-} */
+#filter-options {
+  display: block;
+  flex: 1;
+  order: 1;
+  min-height: 500px;
+}
+
