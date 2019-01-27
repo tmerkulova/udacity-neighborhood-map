@@ -1,11 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
-ul {
+body, ul, h1, input {
   padding: 0;
   margin: 0;
 }
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  /* margin-bottom: 50px; */
+  height: inherit;
+}
+
+.app {
+  height: inherit;
+}
+
+.page-wrapper {
+  height: inherit;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  background-color: rgb(69, 69, 69);
+  color: rgb(205, 205, 205);
+  height: 35px;
+  /* position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(69, 69, 69); */
+  /* color: rgb(205, 205, 205); */
+}
+
 #maincontent {
   display: flex;
+  height: inherit;
+  /* padding-bottom: 200px; */
   /* flex-wrap: wrap; */
 }
 #map {
@@ -14,13 +57,51 @@ ul {
   order: 2;
   display: block;
   position: relative;
-  min-height: 100%;
+  margin: 55px 0;
+  /* min-height: 100%; */
 }
 
 #filter-options {
+  overflow:scroll;
+  overflow-x:hidden;
+  margin: 55px 0;
   display: block;
   flex: 1;
   order: 1;
-  min-height: 500px;
+  background-color: rgb(242, 242, 242);
+  color: black;
+  border-right: 2px solid rgb(69, 69, 69);
+}
+
+#filter-options input {
+  width: 85%;
+  margin: 10px 5% 10%;
+  height: 25px;
+}
+
+#filter-options div {
+  width: 90%;
+  margin: 0 5%;
+}
+
+#filter-options ul {
+  padding: 5px 0;
+  
+}
+
+#filter-options ul:hover {
+  cursor: pointer;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  background-color: rgb(69, 69, 69);
+  color: rgb(205, 205, 205);
+  height: 15px;
 }
 

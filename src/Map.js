@@ -9,18 +9,20 @@ const mapStyles = {
 
 export class MapContainer extends Component {
   state = {
-    // markers: markers,
     showingInfoWindow: false,
     activeMarker: {},
     selectedPlace: {}    
   }
 
-  onMarkerClick = (props, marker, e) =>
+  onMarkerClick = (props, marker, e) => {
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true
     });
+    //  marker.setAnimation(this.props.google.maps.Animation.BOUNCE)
+    // setTimeout(() => {marker.setAnimation(null)}, 3000);
+  }
 
   onClose = props => {
     if (this.state.showingInfoWindow) {
@@ -47,7 +49,7 @@ export class MapContainer extends Component {
               key={marker.id}
               id={marker.id}
               name={marker.name}
-              position={{ lat: marker.location.lat, lng: marker.location.lng}}
+              position={marker.location}
               onClick={this.onMarkerClick}
             ></Marker>
           ))

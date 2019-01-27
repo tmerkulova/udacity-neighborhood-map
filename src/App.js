@@ -11,6 +11,7 @@ class NeighborhoodMapApp extends Component {
     this.state = {
       markers: markers,
       shownMarkers: markers,
+      bouncingMarker: {},
     }
   }
 
@@ -18,7 +19,6 @@ class NeighborhoodMapApp extends Component {
   }
 
   handleChange = (event) => {
-    console.log('>>>>', event.target.value);
     const query = event.target.value;
     if (query !== '') {
       this.setState(state => ({
@@ -32,22 +32,36 @@ class NeighborhoodMapApp extends Component {
         shownMarkers: state.markers
       }))
     }
-    console.log('>>>>this.state', this.state.markers);
+  }
+
+  updateBouncingMarker(markerId) {
+    this.setState(state => state.bouncingMarker = markerId);
+    console.log('>>>>', this.state);
   }
 
   render() {
     return (
       <div className="app">
         <Route exact path="/" render={() => (
-          <div>
-            <h1>Neighborhood Map</h1>
+          <div className="page-wrapper">
+            <header id="header">
+              <h1>Neighborhood Map</h1>
+            </header>
             <main id="maincontent">
               <div id="filter-options">
                 <input onChange={this.handleChange} type="text" placeholder="Search for places"></input>
-                <Listbox markers={this.state.shownMarkers}></Listbox>
+                <Listbox
+                  markers={this.state.shownMarkers}
+                  bouncingMarker = { this.updateBouncingMarker.bind(this) }
+                >
+                </Listbox>
               </div>
               <div id="map">
-                <Map markers={this.state.shownMarkers}></Map>
+                <Map
+                  markers={this.state.shownMarkers}
+                  bouncingMarker={this.state.bouncingMarker}
+                >
+                </Map>
               </div>
             </main>
             <footer id="footer">
