@@ -11,7 +11,7 @@ class NeighborhoodMapApp extends Component {
     this.state = {
       markers: markers,
       shownMarkers: markers,
-      bouncingMarker: {},
+      bouncingMarker: '',
     }
   }
 
@@ -36,7 +36,10 @@ class NeighborhoodMapApp extends Component {
 
   updateBouncingMarker(markerId) {
     this.setState(state => state.bouncingMarker = markerId);
-    console.log('>>>>', this.state);
+    let timeout = setTimeout(() => {
+      this.setState(state => state.bouncingMarker = '');
+      clearTimeout(timeout);
+    }, 3000);
   }
 
   render() {
@@ -52,7 +55,7 @@ class NeighborhoodMapApp extends Component {
                 <input onChange={this.handleChange} type="text" placeholder="Search for places"></input>
                 <Listbox
                   markers={this.state.shownMarkers}
-                  bouncingMarker = { this.updateBouncingMarker.bind(this) }
+                  bouncingMarker = {this.updateBouncingMarker.bind(this)}
                 >
                 </Listbox>
               </div>

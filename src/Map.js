@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 // import markers from './data/data';
+import CustomMarker from './CustomMarker';
 
 const mapStyles = {
   width: '100%',
@@ -11,24 +12,22 @@ export class MapContainer extends Component {
   state = {
     showingInfoWindow: false,
     activeMarker: {},
-    selectedPlace: {}    
+    selectedPlace: {},
   }
 
   onMarkerClick = (props, marker, e) => {
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true
+      showingInfoWindow: true,
     });
-    //  marker.setAnimation(this.props.google.maps.Animation.BOUNCE)
-    // setTimeout(() => {marker.setAnimation(null)}, 3000);
   }
 
   onClose = props => {
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
-        activeMarker: null
+        activeMarker: null,
       });
     }
   };
@@ -45,13 +44,14 @@ export class MapContainer extends Component {
         }}>
         {
           this.props.markers.map(marker => (
-            <Marker
+            <CustomMarker
               key={marker.id}
               id={marker.id}
               name={marker.name}
               position={marker.location}
               onClick={this.onMarkerClick}
-            ></Marker>
+              bouncingMarker={this.props.bouncingMarker}
+            ></CustomMarker>
           ))
         }
         <InfoWindow
