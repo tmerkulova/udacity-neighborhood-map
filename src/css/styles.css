@@ -101,7 +101,6 @@ button#menu {
 
 #filter-options ul {
   padding: 5px 0;
-  
 }
 
 #filter-options ul:hover {
@@ -124,14 +123,7 @@ button#menu {
 
 @media screen and (min-width:750px) {
   #header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
     padding: 10px 0;
-    background-color: rgb(80, 80, 80);
-    color: rgb(205, 205, 205);
     height: 35px;
     font-size: 16px;
   }
@@ -140,65 +132,24 @@ button#menu {
     visibility: hidden;
   }
 
-  #maincontent {
-    display: flex;
-    height: inherit;
-  }
-
   #map {
-    background-color: red;
     flex: 3;
     order: 2;
-    display: block;
-    position: relative;
     margin: 55px 0;
   }
 
   #filter-options {
-    overflow:scroll;
-    overflow-x:hidden;
     margin: 55px 0;
-    display: block;
     flex: 1;
     order: 1;
-    background-color: rgb(242, 242, 242);
-    color: black;
-    border-right: 2px solid rgb(80, 80, 80);
   }
 
   #filter-options.hidden {
     display: block;
   }
 
-  #filter-options input {
-    width: 85%;
-    margin: 10px 5% 10%;
-    height: 25px;
-  }
-
-  #filter-options div {
-    width: 90%;
-    margin: 0 5%;
-  }
-
-  #filter-options ul {
-    padding: 5px 0;
-    
-  }
-
-  #filter-options ul:hover {
-    cursor: pointer;
-  }
-
   #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
     padding: 20px 0;
-    background-color: rgb(80, 80, 80);
-    color: rgb(205, 205, 205);
     height: 15px;
     font-size: 16px;
   }
