@@ -12,6 +12,7 @@ class NeighborhoodMapApp extends Component {
       markers: markers,
       shownMarkers: markers,
       bouncingMarker: '',
+      showInfoWindow: false,
     }
   }
 
@@ -46,11 +47,15 @@ class NeighborhoodMapApp extends Component {
 
   updateBouncingMarker(markerId) {
     document.querySelector('#filter-options').className += ' hidden';
-    this.setState(state => state.bouncingMarker = markerId);
+    this.setState({ bouncingMarker: markerId, showInfoWindow: false });
     let timeout = setTimeout(() => {
       this.setState(state => state.bouncingMarker = '');
       clearTimeout(timeout);
     }, 3000);
+  }
+
+  updateInfoWindowState() {
+    this.setState({ showInfoWindow: true });
   }
 
   render() {
@@ -83,12 +88,16 @@ class NeighborhoodMapApp extends Component {
                 <Map
                   markers={this.state.shownMarkers}
                   bouncingMarker={this.state.bouncingMarker}
+                  showInfoWindow={this.state.showInfoWindow}
+                  updateInfoWindowState={this.updateInfoWindowState.bind(this)}
                 >
                 </Map>
               </div>
             </main>
             <footer id="footer">
-              Copyright (c) 2019 <a href="/" style={{color: 'red'}}>Neighborhood Map</a> All Rights Reserved.
+              <span>Copyright (c) 2019</span>
+              <span style={{ color: 'red' }}> Neighborhood Map </span>
+              <span>All Rights Reserved.</span>
             </footer>
           </div>
         )}>

@@ -60,12 +60,16 @@ button#menu {
 }
 
 #map {
-  background-color: red;
+  background-color: rgb(242, 242, 242);
   flex: 3;
   order: 2;
   display: block;
   position: relative;
   margin: 43px 0 50px 0;
+}
+
+.additional-info {
+  max-width: 200px;
 }
 
 #filter-options {

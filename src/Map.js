@@ -12,14 +12,13 @@ export class MapContainer extends Component {
   CLIENT_SECRET ='2LMLOTKCNAHDI1ARI4Y5EWJWEWUXA3JWTPTEIAICWDXZQ212';
 
   state = {
-    showingInfoWindow: false,
     activeMarker: {},
     selectedPlace: {},
     description: 'Loading...',
   }
 
   fetchData() {
-    fetch('https://api.foursquare.com/v2/venues/search?ll=41.9029,12.4534&client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908125&categoryId=4bf58dd8d48988d181941735&limit=20&query=' + this.state.activeMarker.name)
+    fetch('https://api.foursquare.com/v2/venues/search?ll=51.5115843854343,-0.11755949510958881&client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908125&categoryId=4bf58dd8d48988d181941735&limit=20&query=' + this.state.activeMarker.name)
       .then(result => {
         return result.json();
       }).then(searchData => {
@@ -44,30 +43,21 @@ export class MapContainer extends Component {
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true,
       description: 'Loading...'
     });
     this.fetchData();
+    this.props.updateInfoWindowState();
   }
-
-  onClose = props => {
-    if (this.state.showingInfoWindow) {
-      this.setState({
-        showingInfoWindow: false,
-        activeMarker: null,
-      });
-    }
-  };
 
   render() {
     return (
       <Map
         google={this.props.google}
-        zoom={14}
+        zoom={13}
         style={mapStyles}
         initialCenter={{
-          "lat": 41.902916,
-          "lng": 12.454301
+          "lat": 51.5115843854343,
+          "lng": -0.11755949510958881,
         }}>
         {
           this.props.markers.map(marker => (
@@ -83,9 +73,9 @@ export class MapContainer extends Component {
         }
         <InfoWindow
           marker={this.state.activeMarker}
-          visible={this.state.showingInfoWindow}
+          visible={this.props.showInfoWindow}
         >
-          <div>
+          <div className="additional-info">
             <h1>{this.state.activeMarker.name}</h1>
             <div>{this.state.description}</div>
           </div>
