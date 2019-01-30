@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/styles.css'
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Map from './Map';
 import Listbox from './Listbox';
 import markers from './data/data';
@@ -16,6 +16,14 @@ class NeighborhoodMapApp extends Component {
   }
 
   componentDidMount() {
+  }
+
+  onButtonClick() {
+    if (document.querySelector('#filter-options').classList.contains('hidden')) {
+      document.querySelector('#filter-options').className = document.querySelector('#filter-options').className.replace('hidden', '');;
+    } else {
+      document.querySelector('#filter-options').className += ' hidden';
+    }
   }
 
   handleChange = (event) => {
@@ -35,6 +43,7 @@ class NeighborhoodMapApp extends Component {
   }
 
   updateBouncingMarker(markerId) {
+    document.querySelector('#filter-options').className += ' hidden';
     this.setState(state => state.bouncingMarker = markerId);
     let timeout = setTimeout(() => {
       this.setState(state => state.bouncingMarker = '');
@@ -48,10 +57,16 @@ class NeighborhoodMapApp extends Component {
         <Route exact path="/" render={() => (
           <div className="page-wrapper">
             <header id="header">
-              <h1>Neighborhood Map</h1>
+              <button
+                id="menu"
+                onClick={this.onButtonClick}
+              >
+                M
+              </button>
+              <h1>Museums of London</h1>
             </header>
             <main id="maincontent">
-              <div id="filter-options">
+              <div id="filter-options" className='hidden'>
                 <input onChange={this.handleChange} type="text" placeholder="Search for places"></input>
                 <Listbox
                   markers={this.state.shownMarkers}
@@ -68,7 +83,7 @@ class NeighborhoodMapApp extends Component {
               </div>
             </main>
             <footer id="footer">
-              Copyright (c) 2019 <a href="/"><strong>Neighborhood Map</strong></a> All Rights Reserved.
+              Copyright (c) 2019 <a href="/" style={{color: 'red'}}>Neighborhood Map</a> All Rights Reserved.
             </footer>
           </div>
         )}>

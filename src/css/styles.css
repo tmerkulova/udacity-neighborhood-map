@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body, ul, h1, input {
   padding: 0;
   margin: 0;
-}
-
-html {
-    position: relative;
-    min-height: 100%;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
 }
 
 #root {
-  /* margin-bottom: 50px; */
   height: inherit;
 }
 
@@ -34,43 +33,49 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(80, 80, 80);
   color: rgb(205, 205, 205);
-  height: 35px;
-  /* position: absolute;
+  height: 23px;
+  font-size: 10px;
+}
+
+button#menu {
+  visibility: visible;
+  margin: 12px;
+  position: absolute;
   top: 0;
-  text-align: center;
-  padding: 10px 0;
-  background-color: rgb(69, 69, 69); */
-  /* color: rgb(205, 205, 205); */
+  left: 0;
+  color: red;
 }
 
 #maincontent {
   display: flex;
   height: inherit;
-  /* padding-bottom: 200px; */
-  /* flex-wrap: wrap; */
 }
+
 #map {
   background-color: red;
   flex: 3;
   order: 2;
   display: block;
   position: relative;
-  margin: 55px 0;
-  /* min-height: 100%; */
+  margin: 43px 0 50px 0;
 }
 
 #filter-options {
+  display: block;
   overflow:scroll;
   overflow-x:hidden;
-  margin: 55px 0;
-  display: block;
-  flex: 1;
+  margin: 43px 0 50px 0;
+  flex: 20;
   order: 1;
   background-color: rgb(242, 242, 242);
   color: black;
-  border-right: 2px solid rgb(69, 69, 69);
+  border-right: 2px solid rgb(80, 80, 80);
+}
+
+#filter-options.hidden {
+  display: none;
 }
 
 #filter-options input {
@@ -100,8 +105,92 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding: 20px 0;
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(80, 80, 80);
   color: rgb(205, 205, 205);
-  height: 15px;
+  height: 10px;
+  font-size: 10px;
+}
+
+
+@media screen and (min-width:750px) {
+  #header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background-color: rgb(80, 80, 80);
+    color: rgb(205, 205, 205);
+    height: 35px;
+    font-size: 16px;
+  }
+
+  button#menu {
+    visibility: hidden;
+  }
+
+  #maincontent {
+    display: flex;
+    height: inherit;
+  }
+
+  #map {
+    background-color: red;
+    flex: 3;
+    order: 2;
+    display: block;
+    position: relative;
+    margin: 55px 0;
+  }
+
+  #filter-options {
+    overflow:scroll;
+    overflow-x:hidden;
+    margin: 55px 0;
+    display: block;
+    flex: 1;
+    order: 1;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    border-right: 2px solid rgb(80, 80, 80);
+  }
+
+  #filter-options.hidden {
+    display: block;
+  }
+
+  #filter-options input {
+    width: 85%;
+    margin: 10px 5% 10%;
+    height: 25px;
+  }
+
+  #filter-options div {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  #filter-options ul {
+    padding: 5px 0;
+    
+  }
+
+  #filter-options ul:hover {
+    cursor: pointer;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: rgb(80, 80, 80);
+    color: rgb(205, 205, 205);
+    height: 15px;
+    font-size: 16px;
+  }
 }
 

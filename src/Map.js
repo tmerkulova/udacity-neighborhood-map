@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
-// import markers from './data/data';
+import { Map, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 import CustomMarker from './CustomMarker';
 
 const mapStyles = {
@@ -9,10 +8,36 @@ const mapStyles = {
 };
 
 export class MapContainer extends Component {
+  CLIENT_ID ='FFHQ5WOV1UXQYMN3MWMHG5DVMSODZVFVDB3EJ3WK30F3203R';
+  CLIENT_SECRET ='2LMLOTKCNAHDI1ARI4Y5EWJWEWUXA3JWTPTEIAICWDXZQ212';
+
   state = {
     showingInfoWindow: false,
     activeMarker: {},
     selectedPlace: {},
+    description: 'Loading...',
+  }
+
+  fetchData() {
+    fetch('https://api.foursquare.com/v2/venues/search?ll=41.9029,12.4534&client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908125&categoryId=4bf58dd8d48988d181941735&limit=20&query=' + this.state.activeMarker.name)
+      .then(result => {
+        return result.json();
+      }).then(searchData => {
+        return searchData.response.venues[0].id;
+      }).then(venueId => {
+        fetch('https://api.foursquare.com/v2/venues/' + venueId + '?client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908126')
+          .then(result => {
+            return result.json();
+          }).then(venuData => {
+            let des = "None";
+            if (venuData.response.venue.description) {
+              des = venuData.response.venue.description;
+            }
+            this.setState({ description: des })
+          })
+      }).catch(err => {
+        console.log('oops')
+      })
   }
 
   onMarkerClick = (props, marker, e) => {
@@ -20,7 +45,9 @@ export class MapContainer extends Component {
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true,
+      description: 'Loading...'
     });
+    this.fetchData();
   }
 
   onClose = props => {
@@ -60,6 +87,7 @@ export class MapContainer extends Component {
         >
           <div>
             <h1>{this.state.activeMarker.name}</h1>
+            <div>{this.state.description}</div>
           </div>
         </InfoWindow>
       </Map>
