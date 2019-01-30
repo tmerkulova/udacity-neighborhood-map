@@ -45,7 +45,13 @@ button#menu {
   position: absolute;
   top: 0;
   left: 0;
-  color: red;
+  background-color: red;
+  background-size: cover;
+  background-image: url('../img/museum_icon.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  border: none;
 }
 
 #maincontent {

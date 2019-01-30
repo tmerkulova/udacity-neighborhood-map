@@ -20,9 +20,11 @@ class NeighborhoodMapApp extends Component {
 
   onButtonClick() {
     if (document.querySelector('#filter-options').classList.contains('hidden')) {
-      document.querySelector('#filter-options').className = document.querySelector('#filter-options').className.replace('hidden', '');;
+      document.querySelector('#filter-options').className = document.querySelector('#filter-options').className.replace('hidden', '');
+      document.querySelector('button#menu').setAttribute('aria-expanded', true);
     } else {
       document.querySelector('#filter-options').className += ' hidden';
+      document.querySelector('button#menu').setAttribute('aria-expanded', false);
     }
   }
 
@@ -58,23 +60,26 @@ class NeighborhoodMapApp extends Component {
           <div className="page-wrapper">
             <header id="header">
               <button
+                aria-label="museums menu"
                 id="menu"
                 onClick={this.onButtonClick}
+                tabIndex="0"
+                aria-expanded="false"
               >
-                M
+                
               </button>
               <h1>Museums of London</h1>
             </header>
             <main id="maincontent">
               <div id="filter-options" className='hidden'>
-                <input onChange={this.handleChange} type="text" placeholder="Search for places"></input>
+                <input onChange={this.handleChange} type="text" placeholder="Search for museums"></input>
                 <Listbox
                   markers={this.state.shownMarkers}
                   bouncingMarker = {this.updateBouncingMarker.bind(this)}
                 >
                 </Listbox>
               </div>
-              <div id="map">
+              <div id="map" role="application">
                 <Map
                   markers={this.state.shownMarkers}
                   bouncingMarker={this.state.bouncingMarker}
