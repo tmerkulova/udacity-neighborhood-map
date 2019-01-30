@@ -1,28 +1,15 @@
-var staticCacheName = 'neighborhood-map';
+var staticCacheName = 'neighborhood-map1';
 
-self.addEventListener('install', function (event) {
-  event.waitUntil(
-    caches.open(staticCacheName).then(function (cache) {
-      return cache.addAll([
-        '../src',
-      ]);
-    })
-  );
-});
+self.addEventListener('install', () => self.skipWaiting());
 
-self.addEventListener('activate', function (event) {
-  event.waitUntil(
-    caches.keys().then(function (cacheNames) {
-      return Promise.all(
-        cacheNames.filter(function (cacheName) {
-          return cacheName.startsWith('restaurants-') &&
-            cacheName != staticCacheName;
-        }).map(function (cacheName) {
-          return caches.delete(cacheName);
-        })
-      );
-    })
-  );
+self.addEventListener('activate', () => {
+  self.clients.matchAll({ type: 'window' }).then(windowClients => {
+    for (let windowClient of windowClients) {
+      // Force open pages to refresh, so that they have a chance to load the
+      // fresh navigation response from the local dev server.
+      windowClient.navigate(windowClient.url);
+    }
+  });
 });
 
 self.addEventListener('fetch', function (event) {

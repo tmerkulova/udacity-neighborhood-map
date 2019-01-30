@@ -21,13 +21,16 @@ export class MapContainer extends Component {
     fetch('https://api.foursquare.com/v2/venues/search?ll=51.5115843854343,-0.11755949510958881&client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908125&categoryId=4bf58dd8d48988d181941735&limit=20&query=' + this.state.activeMarker.name)
       .then(result => {
         return result.json();
-      }).then(searchData => {
+      })
+      .then(searchData => {
         return searchData.response.venues[0].id;
-      }).then(venueId => {
+      })
+      .then(venueId => {
         fetch('https://api.foursquare.com/v2/venues/' + venueId + '?client_id=' + this.CLIENT_ID + '&client_secret=' + this.CLIENT_SECRET + '&v=201908126')
           .then(result => {
             return result.json();
-          }).then(venuData => {
+          })
+          .then(venuData => {
             let des = "None";
             if (venuData.response.venue.description) {
               des = venuData.response.venue.description;
@@ -35,7 +38,7 @@ export class MapContainer extends Component {
             this.setState({ description: des })
           })
       }).catch(err => {
-        console.log('oops')
+        this.setState({ description: 'Oops... Please check your internet connection!' })
       })
   }
 

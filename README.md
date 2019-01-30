@@ -4,6 +4,7 @@
 This is Udacity neighborhod map project: the website for searching for the museums in London. You can find the museums on the map. You also can filter the list. If you click on the list item the corresponding location will be highlighted. If you click directly on the marker on the map you will get additional information about the museum (the data is taken from [foursquare.com](https://developer.foursquare.com/)).
 
 ## How to run the application?
+
 For running this application you need to have your own
 
 1. Google Map API key
@@ -13,6 +14,12 @@ Next steps:
 
 1. Install dependencies with `npm install`
 2. Run `npm start`
+
+### Technical information
+
+To enable service worker in development environment please go to the file `src/ServiceWorkerWrapper.js`, line: 25, and update the condition to
+`(process.env.NODE_ENV === 'development' && 'serviceWorker' in navigator)`
+
 
 ## Resources
 
